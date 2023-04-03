@@ -3947,11 +3947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Visual Studio Repository\\Ticket Booking Website\\Ticket Booking Website.csproj",
+      "projectUniqueName": "F:\\Visual Studio Repository\\Ticket-Booking-Website\\Ticket Booking Website.csproj",
       "projectName": "Ticket Booking Website",
-      "projectPath": "F:\\Visual Studio Repository\\Ticket Booking Website\\Ticket Booking Website.csproj",
+      "projectPath": "F:\\Visual Studio Repository\\Ticket-Booking-Website\\Ticket Booking Website.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "F:\\Visual Studio Repository\\Ticket Booking Website\\obj\\",
+      "outputPath": "F:\\Visual Studio Repository\\Ticket-Booking-Website\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
