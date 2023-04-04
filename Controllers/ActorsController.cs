@@ -17,5 +17,10 @@ namespace Ticket_Booking_Website.Controllers
             var data = await _service.GetAll();
             return View(data);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
