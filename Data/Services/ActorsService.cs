@@ -13,7 +13,8 @@ namespace Ticket_Booking_Website.Data.Services
         }
         public void Add(Actor actor)
 		{
-			throw new NotImplementedException();
+			_context.Actors.Add(actor);
+			_context.SaveChanges();
 		}
 
 		public void Delete(int id)
