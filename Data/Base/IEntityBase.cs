@@ -2,7 +2,7 @@
 {
 	public interface IEntityBase
 	{
-		int Id { get; set; };
+		int Id { get; set; }
 
 	}
 }
