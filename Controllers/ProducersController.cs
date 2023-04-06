@@ -18,5 +18,12 @@ namespace Ticket_Booking_Website.Controllers
             var allProducers = await _service.GetAllAsync();
             return View(allProducers);
         }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var producerDetails = await _service.GetByIdAsync(id);
+            if (producerDetails == null) return View("NotFound");
+            return View(producerDetails);
+        }
     }
 }
