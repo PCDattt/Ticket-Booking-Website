@@ -8,10 +8,13 @@ namespace Ticket_Booking_Website.Models
         [Key]
         public int Id { get; set; }
         [Display (Name = "Cinema Logo")]
+        [Required]
         public string Logo { get; set; }
         [Display (Name = "Cinema Name")]
-        public string Name { get; set; }
+		[Required]
+		public string Name { get; set; }
         [Display (Name = "Description")]
+        [Required]
         public string Description { get; set; }
 
         //Relationship
