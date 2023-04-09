@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Ticket_Booking_Website.Data.Base;
 using Ticket_Booking_Website.Data.Enums;
 
 namespace Ticket_Booking_Website.Models
 {
-    public class Movie
+    public class Movie:IEntityBase
     {
         [Key]
         public int Id { get; set; }
