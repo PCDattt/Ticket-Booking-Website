@@ -14,8 +14,14 @@ namespace Ticket_Booking_Website.Controllers
         }
         public async Task<IActionResult> Index()
         {
-			var allMovies = await _service.GetAllAsync();
+			var allMovies = await _service.GetAllAsync(n => n.Cinema);
 			return View(allMovies);
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var movieDetails = await _service.GetMovieByIdAsync(id);
+            return View(movieDetails);
         }
     }
 }

@@ -5,5 +5,6 @@ namespace Ticket_Booking_Website.Data.Services
 {
 	public interface IMoviesService : IEntityBaseRepository<Movie>
 	{
+		Task<Movie> GetMovieByIdAsync(int id);
 	}
 }
