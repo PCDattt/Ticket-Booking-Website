@@ -8,6 +8,7 @@ namespace Ticket_Booking_Website.Models
 {
     public class NewMovieVM
     {
+        public int Id { get; set; }
         [Display(Name = "Movie Name")]
         [Required(ErrorMessage = "Name is Required")]
         public string Name { get; set; }
