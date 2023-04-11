@@ -46,8 +46,4 @@
 	</div>
 </div>
 
-<div class="text-while" style="position:fixed; bottom: 30px; right: 30px;">
-	<a asp-controller="Cinemas" asp-action="Create" class="btn btn-success">
-		<i class="bi bi-plus-circle"></i>Add New
-	</a>
-</div>
+@await Html.PartialAsync("_CreateItem", "Cinemas")
