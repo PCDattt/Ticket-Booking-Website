@@ -1,5 +1,6 @@
 # Ticket-Booking-Website
-Frontend: HTML, CSS\n
+Frontend: HTML, CSS
+
 Backend: C#, ASP.NET Core MVC, Microsoft SQL Server
 
 Features:
