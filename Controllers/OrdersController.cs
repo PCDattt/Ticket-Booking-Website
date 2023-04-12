@@ -15,7 +15,7 @@ namespace Ticket_Booking_Website.Controllers
 			_shoppingCart = shoppingCart;
         }
 
-        public IActionResult Index()
+        public IActionResult ShoppingCart()
 		{
 			var items = _shoppingCart.GetShoppingCartItems();
 			_shoppingCart.ShoppingCartItems = items;
