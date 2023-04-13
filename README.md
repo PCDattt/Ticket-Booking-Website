@@ -10,3 +10,5 @@ Features:
 - Add, Update, Delete Producers
 - Search for a Movie
 - View movies, cinemas, actors, producers details
+
+Reference: https://www.udemy.com/course/complete-ecommerce-app-using-aspnet-core-mvc-net-6/
